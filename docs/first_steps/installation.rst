@@ -26,6 +26,15 @@ It is recommended to install Kotti inside a virtualenv:
 
 This will install the latest released version of Kotti and all its requirements into your virtualenv.
 
+.. note::
+
+  If you have trouble with the installation, try updating setuptools.
+
+.. code-block:: bash
+
+  bin/pip install -U setuptools
+
+
 Kotti uses `Paste Deploy`_ for configuration and deployment.
 An example configuration file is included with Kotti's source distribution.
 Download it to your virtualenv directory (mysite):
